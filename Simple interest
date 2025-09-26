@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    float Principal,rate,time,simple_interest;
+    scanf("%f",&Principal);
+    scanf("%f",&rate);    
+    scanf("%f",&time);
+    simple_interest = (Principal * rate * time)/100;
+    printf("%.2f", simple_interest);
+    
+    return 0;
+}
