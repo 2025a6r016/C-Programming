@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 int main() {
     
     int English, Mathematics, Science, Computer, History, total, marks_obtained; 
