@@ -1,0 +1,11 @@
+int main() {
+
+    char ch;
+    int x;
+    float y;
+    double z;
+    scanf("%c%d%f%lf" , &ch, &x, &y, &z);
+    printf("%c %d %.2f %lf" , ch,x,y,z);
+    
+    return 0;
+}
